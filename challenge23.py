@@ -1,0 +1,7 @@
+rima = str(input("Dame la primera linea de la cancion estrellita para ninos: "))
+longitud = len(rima)
+print ("El numero de caracteres de la frase es: ", longitud, "letras en el")
+start = int(input("Dame un numero inicial: "))
+end = int(input("Dame un numero final"))
+part = (rima[start:end])
+print(part)
